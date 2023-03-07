@@ -1,9 +1,10 @@
-import { getSession } from "next-auth/client";
-import { useEffect, useState } from "react";
+// import { getSession } from "next-auth/client";
+// import { useEffect, useState } from "react";
 import ProfileForm from "./profile-form";
 import classes from "./user-profile.module.css";
 
 function UserProfile() {
+  /* 
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -19,7 +20,7 @@ function UserProfile() {
   if (isLoading) {
     return <p className={classes.profile}>Loading...</p>;
   }
-
+ */
   return (
     <section className={classes.profile}>
       <h1>Your User Profile</h1>
